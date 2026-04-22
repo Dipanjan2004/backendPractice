@@ -10,5 +10,8 @@ app.get("/home",(req,res)=>{
 app.get("/about",(req,res)=>{
     res.send("This is the about page")
 })
+app.get("/something",(req,res)=>{
+    res.send("This is the something Page")
+})
 
 app.listen(8000); //starting a server
